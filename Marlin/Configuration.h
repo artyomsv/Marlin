@@ -473,9 +473,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Hypercube
-  #define DEFAULT_Kp 9.10
-  #define DEFAULT_Ki 0.47
-  #define DEFAULT_Kd 43.89
+  #define DEFAULT_Kp 10.34
+  #define DEFAULT_Ki 0.54
+  #define DEFAULT_Kd 49.89
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -927,7 +927,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { 0, -25, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 0, -25, -1 }
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 10
@@ -1058,8 +1058,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 200
-#define Y_BED_SIZE 200
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
